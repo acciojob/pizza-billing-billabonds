@@ -1,7 +1,6 @@
 package com.driver;
 
 public class Pizza {
-
     private int price;
     private boolean isVeg;
     private String bill;
@@ -36,7 +35,7 @@ public class Pizza {
         // your code goes here
         if(isCheeseAdded == false){
             isCheeseAdded = true;
-            price += cheese;
+            this.price += cheese;
         }
     }
 
@@ -44,7 +43,7 @@ public class Pizza {
         // your code goes here
         if(isToppingAdded == false){
             isToppingAdded = true;
-            price += toppings;
+            this.price += toppings;
         }
     }
 
@@ -52,7 +51,7 @@ public class Pizza {
         // your code goes here
         if(isTakenAway == false){
             isTakenAway = true;
-            price += 20;
+            this.price += 20;
         }
     }
 

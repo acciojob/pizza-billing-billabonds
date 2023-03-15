@@ -5,15 +5,15 @@ public class Main {
     DeluxePizza dp = new DeluxePizza(false);
     System.out.println(dp.getPrice());
     dp.addTakeaway();
-//    dp.addExtraCheese();
+    dp.addExtraCheese();
     dp.addTakeaway();
     System.out.println(dp.getBill());
 
     Pizza p = new Pizza(true);
     p.addExtraCheese();
-//    p.addExtraToppings();
+    p.addExtraToppings();
     p.addTakeaway();
-//    System.out.println("***** ");
+    System.out.println("***** ");
     System.out.println(p.getBill());
   }
 }
